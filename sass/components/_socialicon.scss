@@ -1,0 +1,17 @@
+.social-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover .team-section__icon,
+    &:focus .team-section__icon,
+    &:hover,
+    &:focus {
+        background-color: var(--blue);
+        fill: var(--white);
+        cursor: pointer;
+    }
+}
